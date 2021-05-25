@@ -503,9 +503,9 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Byte[].
         '''</summary>
-        Friend ReadOnly Property _66116_acc_face_U_nyfacemask3_swf() As Byte()
+        Friend ReadOnly Property _66116_acc_face_U_nyfacemask3() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("_66116_acc_face_U_nyfacemask3_swf", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("_66116_acc_face_U_nyfacemask3", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property
