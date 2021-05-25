@@ -202,6 +202,9 @@
   <data name="_63025_acc_face_U_wedveil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\BlockedClothes\63025_acc_face_U_wedveil.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="_63550_hat_U_daveycrockett" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\63550_hat_U_daveycrockett.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="_64082_acc_chest_U_bulletbelt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\BlockedClothes\64082_acc_chest_U_bulletbelt.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

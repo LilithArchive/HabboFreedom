@@ -343,6 +343,16 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Byte[].
         '''</summary>
+        Friend ReadOnly Property _63550_hat_U_daveycrockett() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_63550_hat_U_daveycrockett", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
         Friend ReadOnly Property _64082_acc_chest_U_bulletbelt() As Byte()
             Get
                 Dim obj As Object = ResourceManager.GetObject("_64082_acc_chest_U_bulletbelt", resourceCulture)

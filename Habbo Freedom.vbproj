@@ -305,5 +305,8 @@
   <ItemGroup>
     <None Include="BlockedClothes\66116_acc_face_U_nyfacemask3.swf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\63550_hat_U_daveycrockett.swf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
