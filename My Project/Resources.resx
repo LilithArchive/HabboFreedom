@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_26097_jacket_M_general" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\26097_jacket_M_general.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_26705_hat_U_general" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\26705_hat_U_general.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_33229_acc_face_U_veil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\33229_acc_face_U_veil.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_39730_hat_U_ridhel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\39730_hat_U_ridhel.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50491_hh_human_acc_face" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50491_hh_human_acc_face.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50491_hh_human_hats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50491_hh_human_hats.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50519_hat_U_fez" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50519_hat_U_fez.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50537_trousers_U_camo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50537_trousers_U_camo.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50539_hat_U_armyhelmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50539_hat_U_armyhelmet.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_50542_hat_U_nycop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\50542_hat_U_nycop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_52216_jacket_U_camo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\52216_jacket_U_camo.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58272_acc_chest_U_medal2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58272_acc_chest_U_medal2.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58272_acc_chest_U_medal3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58272_acc_chest_U_medal3.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58320_hat_U_camocap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58320_hat_U_camocap.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58320_hat_U_kevlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58320_hat_U_kevlar.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58407_acc_chest_U_rank1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58407_acc_chest_U_rank1.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58407_acc_chest_U_rank2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58407_acc_chest_U_rank2.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58407_acc_chest_U_rank3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58407_acc_chest_U_rank3.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58407_acc_chest_U_rank4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58407_acc_chest_U_rank4.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58407_acc_chest_U_rank5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58407_acc_chest_U_rank5.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58481_jacket_U_kevlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58481_jacket_U_kevlar.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58611_hat_U_napkin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58611_hat_U_napkin.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58617_acc_chest_U_medal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58617_acc_chest_U_medal1.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_58618_hat_U_military" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\58618_hat_U_military.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_59888_shirt_M_camotank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\59888_shirt_M_camotank.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_61408_jacket_F_military" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\61408_jacket_F_military.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_61408_jacket_M_military" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\61408_jacket_M_military.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_63025_acc_face_U_wedveil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\63025_acc_face_U_wedveil.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_64082_acc_chest_U_bulletbelt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\64082_acc_chest_U_bulletbelt.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_64460_jacket_F_regiment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\64460_jacket_F_regiment.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_64460_jacket_M_regiment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\64460_jacket_M_regiment.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65554_acc_head_U_grandheadjewel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65554_acc_head_U_grandheadjewel.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65554_shirt_F_grandsherwani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65554_shirt_F_grandsherwani.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65554_shirt_F_sherwani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65554_shirt_F_sherwani.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65554_shirt_M_grandsherwani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65554_shirt_M_grandsherwani.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65554_shirt_M_sherwani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65554_shirt_M_sherwani.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65573_hat_U_turban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65573_hat_U_turban.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65574_acc_head_U_headjewel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65574_acc_head_U_headjewel.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65574_hat_U_monkeyfezhat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65574_hat_U_monkeyfezhat.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65583_shirt_U_grandsari" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65583_shirt_U_grandsari.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65588_hair_U_jewelbraidhair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65588_hair_U_jewelbraidhair.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_65633_hat_U_studentcap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\65633_hat_U_studentcap.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask1.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask2.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask3_swf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask3.swf.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask4.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask5.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask6.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask7.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66116_acc_face_U_nyfacemask8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66116_acc_face_U_nyfacemask8.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66174_hat_U_camohat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66174_hat_U_camohat.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66174_hat_U_hijab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66174_hat_U_hijab.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66174_trousers_U_camojoggers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66174_trousers_U_camojoggers.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66210_jacket_F_camohoodie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66210_jacket_F_camohoodie.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66210_jacket_M_camohoodie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66210_jacket_M_camohoodie.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66210_shirt_F_camocroptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66210_shirt_F_camocroptop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66210_shirt_M_camocroptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66210_shirt_M_camocroptop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

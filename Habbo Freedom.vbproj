@@ -1,0 +1,306 @@
+﻿<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D107F13-F47C-4B2E-B48C-049D8478A98C}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HabboFreedom</RootNamespace>
+    <AssemblyName>HabboFreedom</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HabboFreedom.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HabboFreedom.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FreedomIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\33229_acc_face_U_veil.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50491_hh_human_acc_face.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50519_hat_U_fez.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\63025_acc_face_U_wedveil.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65554_acc_head_U_grandheadjewel.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65554_shirt_F_grandsherwani.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65554_shirt_F_sherwani.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65554_shirt_M_grandsherwani.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65554_shirt_M_sherwani.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65573_hat_U_turban.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65574_acc_head_U_headjewel.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65574_hat_U_monkeyfezhat.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65583_shirt_U_grandsari.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65588_hair_U_jewelbraidhair.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask1.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask2.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask3.swf.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask4.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask5.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask6.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask7.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66116_acc_face_U_nyfacemask8.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66174_hat_U_hijab.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58272_acc_chest_U_medal2.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58272_acc_chest_U_medal3.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58407_acc_chest_U_rank1.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58407_acc_chest_U_rank2.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58407_acc_chest_U_rank3.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58407_acc_chest_U_rank4.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58407_acc_chest_U_rank5.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58617_acc_chest_U_medal1.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\26097_jacket_M_general.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50537_trousers_U_camo.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\52216_jacket_U_camo.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58320_hat_U_camocap.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58320_hat_U_kevlar.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58481_jacket_U_kevlar.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58618_hat_U_military.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\59888_shirt_M_camotank.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\61408_jacket_F_military.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\61408_jacket_M_military.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66174_hat_U_camohat.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66174_trousers_U_camojoggers.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66210_jacket_F_camohoodie.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66210_jacket_M_camohoodie.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66210_shirt_F_camocroptop.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66210_shirt_M_camocroptop.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\26705_hat_U_general.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\39730_hat_U_ridhel.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50539_hat_U_armyhelmet.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50542_hat_U_nycop.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\65633_hat_U_studentcap.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\58611_hat_U_napkin.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\64082_acc_chest_U_bulletbelt.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\64460_jacket_F_regiment.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\50491_hh_human_hats.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\64460_jacket_M_regiment.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="FreedomIcon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
