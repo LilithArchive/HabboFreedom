@@ -292,4 +292,16 @@
   <data name="_66210_shirt_M_camocroptop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\BlockedClothes\66210_shirt_M_camocroptop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="_66433_shirt_U_thaidress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66433_shirt_U_thaidress.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66438_hair_U_thaiheaddress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66438_hair_U_thaiheaddress.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66452_shirt_M_thaitop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66452_shirt_M_thaitop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_66453_shirt_F_thaitop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\BlockedClothes\66453_shirt_F_thaitop.swf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

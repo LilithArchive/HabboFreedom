@@ -639,5 +639,45 @@ Namespace My.Resources
                 Return CType(obj,Byte())
             End Get
         End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property _66433_shirt_U_thaidress() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_66433_shirt_U_thaidress", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property _66438_hair_U_thaiheaddress() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_66438_hair_U_thaiheaddress", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property _66452_shirt_M_thaitop() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_66452_shirt_M_thaitop", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property _66453_shirt_F_thaitop() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_66453_shirt_F_thaitop", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
     End Module
 End Namespace

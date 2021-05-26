@@ -308,5 +308,17 @@
   <ItemGroup>
     <None Include="BlockedClothes\63550_hat_U_daveycrockett.swf" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66433_shirt_U_thaidress.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66438_hair_U_thaiheaddress.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66452_shirt_M_thaitop.swf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlockedClothes\66453_shirt_F_thaitop.swf" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
